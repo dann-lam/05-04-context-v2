@@ -1,6 +1,10 @@
 function bindToAnArg(func, arg) {
-  // Your code here
+                          //2
+  return func.bind(func, arg)
+//Should return passed in function, modified to always be invoked with the passed in argument.
 }
+
+//EXAMPLES DELETE ME!!!
 
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/
 module.exports = bindToAnArg;
